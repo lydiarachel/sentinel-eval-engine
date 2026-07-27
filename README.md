@@ -44,7 +44,9 @@ project-sentinel/
 │   └── structural_integrity.py# COMP-003: response schema regression checks
 ├── audit_log.py               # evaluation loop, finding persistence, CSV telemetry
 ├── main.py                    # CLI: one-shot or --daemon with ASCII dashboard
-└── mock_data.py               # seeds 15 mock conversations (passing + anomalies)
+├── mock_data.py               # seeds 15 mock conversations (passing + anomalies)
+├── generate_report.py         # renders site/index.html from live evaluation data
+└── site/index.html            # static evaluation report (deployed via Netlify)
 ```
 
 ## Quick start
@@ -54,6 +56,7 @@ pip install -r requirements.txt
 python mock_data.py     # seed the mock transaction log
 python main.py          # run one evaluation pass + dashboard
 python main.py --daemon --interval 5   # polling mode, Ctrl+C for graceful shutdown
+python generate_report.py              # regenerate the static report page
 ```
 
 ## Detection rules
