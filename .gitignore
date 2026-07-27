@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+sentinel.db
+safety_evaluation_snapshot.csv
+.DS_Store
