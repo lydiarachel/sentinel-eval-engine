@@ -3,3 +3,7 @@ __pycache__/
 sentinel.db
 safety_evaluation_snapshot.csv
 .DS_Store
+*.private.md
+CLAUDE.md
+PUBLISHING.md
+docs/
