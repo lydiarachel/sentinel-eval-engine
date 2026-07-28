@@ -91,6 +91,12 @@ def render():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Project Sentinel · Model Safety Evaluation Report</title>
+<meta property="og:title" content="Project Sentinel: Model Safety Evaluation Engine">
+<meta property="og:description" content="A read-only scanner that evaluates language model outputs against policy compliance rules. Built with Python and Claude Code.">
+<meta property="og:image" content="https://sentinel-eval-engine.netlify.app/og.png">
+<meta property="og:url" content="https://sentinel-eval-engine.netlify.app">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root {{
     color-scheme: light;
